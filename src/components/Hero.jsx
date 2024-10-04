@@ -13,7 +13,7 @@ export default function Hero(){
                     </div>
                     
                     <div className="max-w-lg text-lg  text-gray-500">
-                        A Data Integration and Automation tool that ranked NO. 1 on Product Hunt. Let's find out more about this versatile tool hinding under the guise of an innocent google workspace extension.
+                        A Data connector that is ranked NO. 1 on Product Hunt. Let's find out more about this versatile tool hinding under the guise of an innocent google workspace extension.
                     </div>
                 </div>
             </div>

@@ -114,7 +114,7 @@ export default function Market(){
             <li>
                 <strong>
                     No coding: 
-                </strong>: It offers powerful functionality without requiring technical expertise, making it accessible for non-technical users.
+                </strong> It offers powerful functionality without requiring technical expertise, making it accessible for non-technical users.
             </li>
 
             </div>
@@ -156,6 +156,12 @@ export default function Market(){
 
         </div>
 
+            <div className="text-7xl flex justify-center font-semibold mt-20">
+                Not &nbsp;<span className="text-orange-500">Super</span>&nbsp;Satisfied?
+            </div>
+            <div>
+                <a href="/Superjoin assignment (Take 2).pdf" className="flex justify-center mt-10 text-3xl font-semibold">Click Me then!</a>
+            </div>
 
         <div className="mt-24 font-bold uppercase text-4xl text-gray-500 mb-10">
             sources
