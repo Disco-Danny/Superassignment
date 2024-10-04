@@ -22,52 +22,70 @@ export default function User() {
                 
                 {/* Corner Cards */}
                 <div className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 m-2 hover:scale-110 transition-transform duration-30">
-                    <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-center shadow-lg">
-                        <h3 className="text-lg font-semibold mb-1 p-2"><span className="text-orange-500">Super</span>GPT-What's That?</h3>
-                        <p className="text-sm p-2">ChatGPT in Google Sheets. It allows you to:<span className="font-bold"><li>Create tailored content instantly</li></span>
-                        <span className="font-bold"><li>Gather crucial information quickly</li></span>
-                        <span className="font-bold"><li>Fill missing data automatically</li></span>
-                        <span className="font-bold"><li>Summarize complex information</li></span>
-                        
-                        </p>
-                    </div>
+                <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-left shadow-lg">
+    <h3 className="text-lg font-semibold mb-1 p-2">
+        <span className="text-orange-500">Super</span>GPT - What's That?
+    </h3>
+    <p className="text-sm p-2">
+        ChatGPT in Google Sheets. It allows you to:
+        <ul className="list-disc pl-5">
+            <li className="font-bold">Create tailored content instantly</li>
+            <li className="font-bold">Gather crucial information quickly</li>
+            <li className="font-bold">Fill missing data automatically</li>
+            <li className="font-bold">Summarize complex information</li>
+        </ul>
+    </p>
+</div>
+
                 </div>
 
-                <div className="absolute top-1/4 right-1/4 transform translate-x-1/2 -translate-y-1/2 m-2 hover:scale-110 transition-transform duration-30">
+                <div className="absolute top-1/4 right-1/4 transform translate-x-1/2 -translate-y-1/2 m-2 hover:scale-110 transition-transform duration-30 ">
                     <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-center shadow-lg">
                         <h3 className="text-lg font-semibold mb-1">Ease of Use</h3>
                         <p className="text-sm">Features aplenty but operation is easy.<br />
-                        <span className="font-bold"><li>Little to no learning curve as all of the work is done in a google sheet. </li></span>
-                        <span className="font-bold"><li>No coding required for any integration. </li></span>
-                        <span className="font-bold"><li>Superjoin : data experts :: Scratch : programmers </li></span>
-                        <span className="font-bold"><li>Two-way sync ensures your source is also updated when you make any changes in your sheet. </li></span>
-                        
+                        <div className="text-left">
+        <ul className="list-disc list-inside">
+        <li className="font-bold">Little to no learning curve as all of the work is done in a Google Sheet.</li>
+        <li className="font-bold">No coding required for any integration.</li>
+        <li className="font-bold">Superjoin : data experts :: Scratch : programmers</li>
+        <li className="font-bold">Two-way sync ensures your source is also updated when you make any changes in your sheet.</li>
+    </ul>
+</div>
+
 
                         </p>
                     </div>
                 </div>
 
                 <div className="absolute bottom-1/4 left-1/4 transform -translate-x-1/2 translate-y-1/2 m-2 hover:scale-110 transition-transform duration-30">
-                    <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-center shadow-lg">
-                        <h3 className="text-lg font-semibold mb-4">RevOps Holy Grail</h3>
-                        <p className="text-sm">Perfect tool for RevOps pros, here is why:
-                        <span className="font-bold"><li>One click integration with popular tools like Hubspot</li></span>
-                        <span className="font-bold"><li>Automate customized reports</li></span>
-                        <span className="font-bold"><li>Custom API integration</li></span>
-                        <span className="font-bold"><li>Formula Fill Down - that ensures you don't have to manually enter formula for new rows</li></span>
-                             </p>
-                    </div>
+                    <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-left shadow-lg">
+    <h3 className="text-lg font-semibold mb-4">RevOps Holy Grail</h3>
+    <p className="text-sm">Perfect tool for RevOps pros, here is why:</p>
+    <ul className="list-disc pl-5 text-sm">
+        <li className="font-bold">One click integration with popular tools like HubSpot</li>
+        <li className="font-bold">Automate customized reports</li>
+        <li className="font-bold">Custom API integration</li>
+        <li className="font-bold">Formula Fill Down - ensures you don't have to manually enter formulas for new rows</li>
+    </ul>
+</div>
+
                 </div>
 
                 <div className="absolute bottom-1/4 right-1/4 transform translate-x-1/2 translate-y-1/2 m-2 hover:scale-110 transition-transform duration-30">
-                    <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-center shadow-lg">
-                        <h3 className="text-lg font-semibold mb-1">Marketing made <span className="text-orange-500">Manageable</span></h3>
-                        <p className="text-sm">Catering to a field that is constantly expanding, Superjoin makes it easier for marketing ops to:
-                        <span className="font-bold"><li>Break large data silos</li></span>   
-                        <span className="font-bold"><li>Ask questions to their data (quite literally, thanks to SuperGPT)</li></span> 
-                        <span className="font-bold"><li>See performance reports from different channels in one place - provides holistic insights and data-driven decisions</li></span>  
-                        </p>
-                    </div>
+                <div className="bg-[#ee8345]/30 rounded-lg p-2 w-48 text-left shadow-lg">
+    <h3 className="text-lg font-semibold mb-1">
+        Marketing made <span className="text-orange-500">Manageable</span>
+    </h3>
+    <p className="text-sm">
+        Catering to a field that is constantly expanding, Superjoin makes it easier for marketing ops to:
+    </p>
+    <ul className="list-disc pl-5 text-sm">
+        <li className="font-bold">Break large data silos</li>
+        <li className="font-bold">Ask questions to their data (quite literally, thanks to SuperGPT)</li>
+        <li className="font-bold">See performance reports from different channels in one place - provides holistic insights and data-driven decisions</li>
+    </ul>
+</div>
+
                 </div>
             </div>
         </div>
