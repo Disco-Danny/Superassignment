@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner';
+import Header from './components/Headers';
+import Hero from './components/Hero';
+import User from './components/User';
+import BannerTwo from './components/BannerTwo';
+import Product from './components/Product';
+import Market from './components/Market';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-[#fdf4e6] h-screen overflow-y-scroll ">
+     
+     <Header />
+     <Hero />
+     <Banner />
+     <User />
+     <BannerTwo />
+     <Product />
+     <Market />
+     
     </div>
   );
 }
