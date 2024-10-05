@@ -8,21 +8,31 @@ export default function Market(){
                 Do <span className="font-bold">not </span>underestimate this early-stage startup.
             </p>
 
-            <h2 className="mt-6 mb-6">Journey</h2>
-            <ul className="list-disc list-inside">
-                <li>
+            <h2 className="mt-16 mb-6 text-center text-4xl text-orange-500 ">Journey</h2>
+<div className="flex flex-col items-center">
+    <div className="text-center mb-4">
+        <ul className="list-none">
+            <li className="mb-4">
                 The company was founded in February 2023 as Stackit, through the joint efforts of Vinayak Jhunjhunwala and Abhinav Das (Jordie).
-                </li>
-                <br />
-                <li>
-                    New features and extensions were added  like Table Sherpa - a one-click tabular data exporter.
-                </li>
-                <br />
-                <li>
-                    Rebranded to <span className="text-orange-500">Superjoin</span>
-                    &nbsp;to communicate their data stitching capabilities with workflows better.
-                </li>
-            </ul>
+            </li>
+            <span className="text-orange-400 text-5xl">↓</span>
+            <li className="mb-4">
+                New features and extensions were added like Table Sherpa - a one-click tabular data exporter.
+            </li>
+            <span className="text-orange-400 text-5xl">↓</span>
+            <li className="mb-4">
+                Rebranded to <span className="text-orange-500">Superjoin</span> &nbsp;to communicate their data stitching capabilities with workflows better.
+            </li>
+            <span className="text-orange-400 text-5xl">↓</span>
+            <li>
+                <span className="text-orange-500">Superjoin AI</span> &nbsp;coming soon.
+            </li>
+        </ul>
+    </div>
+    
+    
+</div>
+
 
             <h2 className="text-2xl mt-10 mb-4">Other Technical Details</h2>
             <p>
