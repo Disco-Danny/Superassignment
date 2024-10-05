@@ -125,15 +125,13 @@ export default function Market(){
         </div>    
         
         <div className="px-10 font-semibold text-xl mt-15">
-            Now we come to the end of our report. Here are some key takeaways.
+            <span className="text-3xl text-gray-500 mb-5">Now we come to the end of our report. Here are some key takeaways.</span>
 
             <br />
             <li className="mt-5">
                 A polished product with a loyal user base to corroborate.
             </li>
-            <li className="mt-5">
-                A lot of features to offer, and  more on the way.
-            </li>
+        
             <li className="mt-5">
                 Need to explore more avenues and use cases than the ones already in use. For eg - Content creators, Educational Institutions, etc.
             </li>
@@ -144,7 +142,10 @@ export default function Market(){
                 Market Saturation of Automation tools to be kept in mind.
             </li>
             <li className="mt-5">
-                Competition from established players is increasein
+                Competition from established players is increasing.
+            </li>
+            <li className="mt-5">
+                A lot of features to offer, and  more on the way.
             </li>
             <br />
             <h2 className="mt-20">Conclusion</h2>
