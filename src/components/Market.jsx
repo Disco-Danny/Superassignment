@@ -96,7 +96,7 @@ export default function Market(){
             <div className="mt-5">
             The global business intelligence market size was valued at USD 29.42 billion in 2023 and is projected to grow from USD 31.98 billion in 2024 to USD 63.76 billion by 2032, exhibiting a CAGR of 9.0% during the forecast. U.S. business intelligence market is predicted to grow significantly, reaching an estimated value of USD 12,821.9 million by 2032.
             <br />
-           <span className="text-orange-500">Superjoin </span>sits at the intersection of these two major growth areas—leveraging the familiar interface of Google Sheets while offering AI-based automation and integration capabilities.
+           <span className="text-orange-500">Superjoin </span>sits at the intersection of these two major growth areas—leveraging the familiar interface of Google Sheets while offering automation and integration capabilities.
 
 
             </div>
@@ -105,7 +105,7 @@ export default function Market(){
             With players like Zapier, Lido, Informatica, Coefficient, <span className="text-orange-500">Superjoin </span> has a competitve edge.
             <br />
             <li>
-                <strong>Ai Powered:</strong> Leverages ChatGPT for intelligent data manipulation and automation, making it better than other integration tools.
+                <strong>GPT Powered:</strong> Leverages ChatGPT for intelligent data manipulation and automation, making it better than other integration tools.
             </li>
             <li>
                 <strong>Familiar Interface:</strong> Built on Google Sheets, it taps into a widely-used platform, reducing the learning curve for users.
@@ -150,7 +150,7 @@ export default function Market(){
             <br />
             <h2 className="mt-20">Conclusion</h2>
              <p className="mt-5">
-             Superjoin is well-positioned in the market for data integration and automation, especially given its AI-driven approach and ease of use for non-technical users. To continue growing, Superjoin should focus on product differentiation, strategic partnerships, and expanding its user base through targeted marketing efforts. There is significant potential in the small business, startup, and content creator segments, as well as in cross-functional teams that require streamlined operations across various departments.
+             Superjoin is well-positioned in the market for data integration and automation, especially given its GPT-integration and ease of use for non-technical users. To continue growing, Superjoin should focus on product differentiation, strategic partnerships, and expanding its user base through targeted marketing efforts. There is significant potential in the small business, startup, and content creator segments, as well as in cross-functional teams that require streamlined operations across various departments.
 
              By capitalizing on these opportunities and continuously improving its product based on user feedback, Superjoin can carve out a strong position in the highly competitive data integration and automation market.
              </p>
