@@ -1,10 +1,10 @@
 export default function Market(){
     return(
         <div className="px-12 py-4 text-xl ">
-            <h1><span className="text-orange-500">Company</span> History</h1>
+            <h1 className="flex justify-center mb-20"><span className="text-orange-500">Company</span>&nbsp; History</h1>
 
             <p className="mt-6 text-center ">
-                Founded in 2023, <span style={{ textDecoration: 'line-through' }}>Stackit, Silai</span> <span className="text-orange-500 font-semibold">Superjoin </span>headquartered in San Francisco, is set out to make data simple, and help business teams achieve mission critical goals without involving developers in the loop. It is all about giving the user more control over their data.
+                Founded in 2023, <span style={{ textDecoration: 'line-through' }}> Silai</span> <span className="text-orange-500 font-semibold">Superjoin(previously Stackit) </span>headquartered in San Francisco, is set out to make data simple, and help business teams achieve mission critical goals without involving developers in the loop. It is all about giving the user more control over their data.
                 Do <span className="font-bold">not </span>underestimate this early-stage startup.
             </p>
 
@@ -15,12 +15,12 @@ export default function Market(){
                 </li>
                 <br />
                 <li>
-                    New features and extensions were added  like Sherpa - a one-click tabular data exporter.
+                    New features and extensions were added  like Table Sherpa - a one-click tabular data exporter.
                 </li>
                 <br />
                 <li>
                     Rebranded to <span className="text-orange-500">Superjoin</span>
-                    &nbsp;to communicate their data stitching capabilities with workflows.
+                    &nbsp;to communicate their data stitching capabilities with workflows better.
                 </li>
             </ul>
 
@@ -87,7 +87,7 @@ export default function Market(){
                 </p>
 
                 <p className="mt-10 text-lg font-semibold">
-                With majority competitors from the US of A,&nbsp;<span className="text-orange-500">Superjoin </span>&nbsp;has hold of a sizeable share given its state of infancy. 
+                With majority competitors from the USA,&nbsp;<span className="text-orange-500">Superjoin </span>&nbsp;has hold of a sizeable share given its early stage. 
             </p>
 
 
@@ -161,7 +161,7 @@ export default function Market(){
                 Not &nbsp;<span className="text-orange-500">Super</span>&nbsp;Satisfied?
             </div>
             <div>
-                <a href="/Superjoin assignment (Take 2).pdf" className="flex justify-center mt-10 text-3xl font-semibold">Click Me then!</a>
+                <a href="/Superjoin (Take 2).pdf" className="flex justify-center mt-10 text-3xl font-semibold">Click Me then!</a>
             </div>
 
         <div className="mt-24 font-bold uppercase text-4xl text-gray-500 mb-10">

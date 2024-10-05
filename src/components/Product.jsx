@@ -6,12 +6,12 @@ export default function Product() {
         {
             useCase: "Reporting",
             description: "Streamline the reporting process to eliminate manual tasks, reduce errors, and provide timely insights.",
-            benefit: "Enhances operational efficiency and decision-making by delivering accurate reports, allowing teams to focus on strategic initiatives",
+            benefit: "Spend less time making reports manually, and more time working on business strategies.",
         },
         {
             useCase: "Product Management",
             description: "Integrate user data from analytics tools(Google Analytics), and feedback forms into Google Sheets. It centralizes all data in one place for easier analysis and feature planning",
-            benefit: "Provides product teams with data-backed insights that help in decision making, leading to faster feature development and a more user-driven product roadmap.",
+            benefit: "Provides product teams insights that help in decision making, leading to faster feature development and a more user-driven product roadmap.",
         },
         {
             useCase: "Bulk Data Operations",
@@ -26,7 +26,7 @@ export default function Product() {
         {
             useCase: "Business Operations",
             description: "Streamline and increase collaborations between SalesOps, RevOps, and MarkOps departments.",
-            benefit: "Cross-functional team that can present holistic reports. Helps in reducing manual errors",
+            benefit: "Teams can create reports that are more detailed and reduce manual errors.",
         },
         {
             useCase: "Designers",
@@ -99,7 +99,7 @@ export default function Product() {
                 </div>
 
                 {/* Right section for image slideshow */}
-                <div className="w-1/2">
+                <div className="w-1/2 mb-40">
                     <div className="rounded-lg overflow-hidden">
                         <img
                             src={images[currentImageIndex]}
@@ -109,6 +109,34 @@ export default function Product() {
                     </div>
                 </div>
             </div>
+
+            <div className="flex justify-between mt-20">
+    {/* Left section for text */}
+    <div className=" w-1/2 pr-4 mt-20">
+        <h1 className="mb-20 ">How SuperGPT Works</h1>
+        <p>
+            Watch this video to learn more about how SuperGPT helps you automate reports, perform calculations and gather insights from your data.
+        </p>
+        <p className="mt-4">
+            From real-time data syncs to using SuperGPT for content creation, you'll see how it can save you time and improve data handling processes.
+        </p>
+    </div>
+
+    {/* Right section for YouTube embed */}
+    <div className="md:w-1/2 w-full mt-10 md:mt-0 mb-40">
+        <div className="rounded-lg overflow-hidden" style={{ height: '600px', width: '100%', paddingRight: '20px' }}>
+            <iframe 
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/MYPFFW50nhc"
+                title="Superjoin Shorts Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
+        </div>
+    </div>
+</div>
         </div>
     );
 }
+
